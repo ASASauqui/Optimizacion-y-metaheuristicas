@@ -1,5 +1,5 @@
 # --------------------------------------
-# Búsqueda Tabú
+# Búsqueda Tabú - Mochila
 #
 # Author : Alan Samuel Aguirre Salazar
 # --------------------------------------
@@ -7,7 +7,7 @@
 
 
 # Lectura de datos
-  datos =  scan("C:\\Users\\alans\\Desktop\\Códigos\\Optimización y metaheurísticas\\015 - Búsqueda tabú\\Datasets\\ks_50_0", what = numeric())
+  datos =  scan("C:\\Users\\alans\\Desktop\\Códigos\\Optimización y metaheurísticas\\001 - Practices\\013 - Búsqueda tabú\\Datasets\\ks_50_0", what = numeric())
   datos = matrix(datos, ncol=2, byrow=T)
   datos
   
@@ -124,7 +124,7 @@ while(k < 30){
   
 }
 
-
+# Impresión de resultados
 cat('óptimo = ', f(xBest), '\n')
 print(g(xBest))
 cat('Arreglo = ', xBest)
