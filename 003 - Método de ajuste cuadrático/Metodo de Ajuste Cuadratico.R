@@ -4,6 +4,8 @@
 # Author : Alan Samuel Aguirre Salazar
 # --------------------------------------
 
+
+
 # Función a evaluar
 f = function(x){
   x^4 + 2*exp(-x)
